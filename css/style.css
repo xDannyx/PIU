@@ -3,12 +3,20 @@ h1 {
 	font-size: 175px;
 }
 
+h2 {
+	text-align: center;
+	font-size: 100px;
+}
 
-/*.footer {	//tbc
-	position: absolute;
+
+.footer {
+  position: fixed;
+  left: 0;
   bottom: 0;
-  left: 50%;
-}*/
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
 
 li {
   float: left;
@@ -24,6 +32,18 @@ li {
       left: 50%;
 }
 
+.center {
+	float: left;
+      position: relative;
+      left: 40%;
+}
+
+.centerk {
+	float: left;
+      position: relative;
+      left: 30%;
+}
+
 
 .tocenterDownMenu {
 	float: left;
@@ -37,6 +57,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-family: Verdana,sans-serif;
 }
 
 li a, .dropbtn {
@@ -98,7 +119,15 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
-  /*text-align: justify;*/
+  text-align: justify;
+}
+
+div.homie {
+  padding: 15px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 20px;
 }
 
 /*tabelka*/
@@ -125,7 +154,7 @@ tr:nth-child(even) {
     box-sizing:border-box;
 }
 .wrapper{
-    min-height:100vh;
+    min-height:90vh;
     background-color:rgba(0,0,0,.4);
     font-family: 'Open Sans', sans-serif;
     padding-top:40px;
